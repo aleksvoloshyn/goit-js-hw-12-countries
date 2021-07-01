@@ -6,16 +6,4 @@ function fetchCountries(searchQuery) {
 
 export default { fetchCountries };
 
-// fetch('https://restcountries.eu/rest/v2/')
-//   .then(response => {
-//     // распарсиваем сюда:
-//     return response.json();
-//   })
-//   .then(country => {
-//     //   если успешно - выполни это:
-//     console.log(country);
-//   })
-//   //   если неуспешно - выполни это:
-//   .catch(error => {
-//     console.log(error);
-//   });
+
