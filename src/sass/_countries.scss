@@ -1,0 +1,44 @@
+body {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.form-label {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.card-text-country {
+  text-align: center;
+}
+
+.card-text {
+  margin-right: 60px;
+}
+
+.js-search-form {
+  margin: 0 auto;
+
+  padding: 20px;
+  .form-group {
+    margin: 0 auto;
+  }
+}
+
+.card {
+  padding-top: 20px;
+}
+.card-body {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.card-text-item {
+  list-style: none;
+}
+
+.img-flag {
+  outline: 1px solid grey;
+}
