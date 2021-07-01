@@ -22,6 +22,7 @@ function onSearch(e) {
 function renderCauntryCard(country) {
   const markup = countryCardTmpl(country);
   refs.cardContainer.innerHTML = markup;
+  console.log(API);
 }
 
 function onFetchError() {
